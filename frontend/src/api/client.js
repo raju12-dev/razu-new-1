@@ -3,7 +3,7 @@ import useAuthStore from '../store/useAuthStore';
 
 // Determine base URL dynamically (for local dev, it assumes backend runs on port 5000)
 // You might want to configure this via environment variables later.
-const baseURL = 'http://localhost:5000/api';
+const baseURL = 'https://razu-new-1.onrender.com';
 
 const apiClient = axios.create({
     baseURL,
